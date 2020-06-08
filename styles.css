@@ -11,20 +11,22 @@
 }
 
 body {
-  background-color: #003844;
+  background-image: url(images/bg-main.jpg);
+  max-width: 100%;
 }
 
 h1 {
   margin: 30px;
   font-family: 'Luckiest Guy', cursive;
-  text-shadow: 5px 0 #232931;
+  text-shadow: 5px 0 #ffffff;
   font-size: 8rem;
-  color: #84C318;
+  color: #3C6997;
 }
 
 p {
   font-size: 2rem;
-  color: #84C318;
+  color: #3C6997;
+  text-shadow: 2px 0 #ffffff;
   font-family: 'Luckiest Guy', cursive;
 }
 
@@ -38,4 +40,32 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+}
+
+.play-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+button {
+  align-self: center;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 0.3em;
+  border-color: purple;
+  text-shadow: 2px 0 #F7C548;
+  background-color: #ffffff;
+  font-family: 'Luckiest Guy', cursive;
+  color: purple;
+  font-size: larger;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+}
+
+button:hover {
+  background-color: limegreen;
 }
